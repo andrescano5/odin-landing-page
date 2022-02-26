@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: w;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+#header, .hero, #product{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+#header{
+
+    padding:20px 16px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.hero {
+    padding: 16px;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.logo {
+    display: flex;
+    margin-right:auto;
+    gap: 20px;
+    padding: auto;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 50px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.menu {
+    margin-left: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+li > a {
+    display: block;
+    
+    color: #E5E7EB;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li > a:hover{
+    
+    background-color: #E5E7EB;
+    color: #3882f6;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.hero-info {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image > img  {
+    max-width: 400px;
+}
+
+button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F9FAF8;
+    color: #3882f6;
+    font-weight: bold;
+}
+
+#product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 40px 0;
+}
+
+.card-wrapper {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card > img {
+    max-width: 150px;
+    border-radius: 20px;
+    border: 4px solid #3882f6;
+    margin-bottom: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card > h3 {
+    margin-bottom: 12px;
+    color: black;
+}
+
+h3 > a{
+    color: black;
+}
+
+h3 > a:hover {
+    text-decoration: underline;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 35%;
+    text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+span {
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+#call-2-act {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.call-container {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+}
+
+.call-text {
+    max-width: 50%;
+}
+
+.call-text > h3 {
+    font-size: 24px;
+}
+
+.call-container > button {
+    border: 2px solid #E5E7EB;
+}
+
+.btn-up {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    border: 3px solid#3882f6;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
